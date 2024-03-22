@@ -7,7 +7,7 @@ const SideBar = ({ moveLeft, sideBar, setSideBar }) => {
   return (
     <div
       className={`min-h-full bg-[#1f3a61] fixed transition-all duration-300 ease-linear delay-300 top-0 ${
-        sideBar ? `left-0` : `left-[${moveLeft}]`
+        sideBar ? `left-0` : `left-[-276px]`
       }`}
     >
       {/* sideOpen-start */}
