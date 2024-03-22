@@ -46,7 +46,7 @@ export default function Home() {
             DISCUSSION FORUM
           </h4>
 
-          <ul className={`list-none  min-w-full gap-10 flex-col `}>
+          <ul className={`list-none  min-w-full gap-10 flex-col`}>
             {Array(10)
               .fill(1)
               .map((e, i) => (
